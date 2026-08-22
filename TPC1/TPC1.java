@@ -47,6 +47,7 @@ public class TPC1 extends JFrame{
     button[10].setText("0");
     button[11].setText("#");
     for(int i=0;i<12;i++){
+      button[i].setFocusable(false);
         panel2.add(button[i]);
     }
 
@@ -54,6 +55,9 @@ public class TPC1 extends JFrame{
     //Botoes do painel de baixo
     JButton button1 = new JButton("send");
     JButton button2 = new JButton("end");
+
+    button1.setFocusable(false);
+    button2.setFocusable(false);
 
     panel3.add(button1);
     panel3.add(button2);
