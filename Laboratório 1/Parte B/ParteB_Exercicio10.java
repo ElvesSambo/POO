@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-public class ParteB_Exercicio1 {
+public class ParteB_Exercicio10 {
     public static void main(String[] args) {
         JFrame f = new JFrame("Título do Exercício");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
